@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang thanh toán</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="/style.css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--  -->
+  <!-- owl stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <style>
+    .badge {
+      background-color: #b21f2d; /* Thay thế your-color bằng mã màu bạn muốn */
+      color: #fff; /* Màu chữ */
+      padding: 5px 10px; /* Kích thước của badge */
+      border-radius: 50%; /* Để tạo góc cong và làm hình tròn */
+    }
+    body {
+      padding-bottom: 500px; /* Đảm bảo khoảng cách dưới cùng của nội dung để tránh che khuất bởi footer */
+    }
+    .footer_section {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #333; /* Màu nền của footer */
+      color: white; /* Màu chữ của footer */
+      text-align: center;
+      padding: 20px 0; /* Khoảng cách giữa các phần tử trong footer */
+      z-index: 9999; /* Đảm bảo footer hiển thị trên cùng của trang */
+    }
+
+  </style>
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <div class="banner_bg_main">
+    <!-- header top section start -->
+    <div class="container">
+      <div class="header_section_top">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="custom_menu">
+              <ul>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Gift Ideas</a></li>
+                <li><a href="#">New Releases</a></li>
+                <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Customer Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header top section start -->
+    <!-- logo section start -->
+    <div class="logo_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="logo"><a href="/"><img src="images/logo.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="header_section">
+    <div class="container">
+      <div class="containt_main">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+        <div class="main">
+          <!-- Another variation with a button -->
+          <form action="/" method="get" class="form-inline my-2 my-lg-0">
+            <div class="input-group input-group-lg">
+              <input name="keyword" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Nhập tên sản phẩm...">
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit" style="background-color: #f26522; border-color:#f26522 ">
+                  <i class="fa fa-search"></i> Tìm
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="header_box">
+          <div class="lang_box ">
+            <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
+              <img src="images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom"> English <i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu ">
+              <a href="#" class="dropdown-item">
+                <img src="images/flag-france.png" class="mr-2" alt="flag">
+                French
+              </a>
+            </div>
+          </div>
+          <div class="login_menu">
+            <ul>
+              <li>
+                <a href="/cart">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <span class="padding_10">Cart</span>
+                  <span class="badge" th:text="${quantity_cart}"></span>
+                </a>
+              </li>
+              <li>
+                <a th:if="${user == null}" href="/login">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  <span class="padding_10">Login</span>
+                </a>
+                <a th:if="${user != null}" href="/logout">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  <span class="padding_10" th:text="${user.name}">User Name</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <div class="container bg-white rounded-top mt-5" id="zero-pad">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-10 col-12 pt-3" id="productsContainer">
+          <div class="d-flex flex-column pt-4">
+            <div><h5 class="text-uppercase font-weight-normal">Giỏ hàng</h5></div>
+            <div class="font-weight-normal" th:text="${quantity_cart} + ' món hàng'"></div>
+          </div>
+          <div class="d-flex flex-row px-lg-5 mx-lg-5 mobile" id="heading">
+            <div class="px-lg-5 mr-lg-5" id="produc">Sản phẩm</div>
+            <div class="px-lg-5 ml-lg-5" id="prc">Giá</div>
+            <div class="px-lg-5 ml-lg-1" id="quantity">Số lượng</div>
+            <div class="px-lg-5 ml-lg-3" id="total">Tổng</div>
+          </div>
+
+          <div th:each="cart_product : ${cart_products}" class="d-flex flex-row justify-content-between align-items-center pt-lg-4 pt-2 pb-3 border-bottom mobile">
+            <div class="d-flex flex-row align-items-center">
+              <div><img th:src="@{'img/' + ${cart_product.getImg()}}" width="150" height="150" alt="" id="image"></div>
+              <div class="d-flex flex-column pl-md-3 pl-1">
+                <div><h6><span th:text="${cart_product.getName().toUpperCase()}"></span></h6></div>
+                <!--            <div>Màu sắc:<span class="pl-3" th:text="${cart_product.getProductDTO().getColor().toUpperCase()}" th:style="'color:' + ${cart_product.getProductDTO().getColor()}"></span></div>-->
+              </div>
+            </div>
+            <div class="pl-md-0 pl-1"><b th:text="${cart_product.getPrice()}"></b></div>
+            <div class="pl-md-0 pl-2">
+
+              <a class="btn fa fa-minus-square text-secondary"
+                 th:id="'decreaseValue'+${cart_product.getId()}"
+                 th:href="@{'/cart/minus/' + ${cart_product.getId()}}">
+              </a>
+
+              <span class="px-md-3 px-1"
+                    th:id="'displayValue'+${cart_product.getId()}"
+                    th:text="${cart_product.getQuantity()}">
+
+                          </span>
+
+              <a class="btn fa fa-plus-square text-secondary"
+                 th:id="'increaseValue'+${cart_product.getId()}"
+                 th:href="@{'/cart/add/' + ${cart_product.getId()}}">
+
+              </a>
+
+            </div>
+            <div class="pl-md-0 pl-1"><b th:text="${cart_product.getPrice()} * ${cart_product.getQuantity()}"></b></div>
+            <a class="close"
+               th:href="@{'/cart/remove/' + ${cart_product.getId()}}">&times;</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container bg-light rounded-bottom py-4" id="zero-pad1">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-10 col-12">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <a class="btn btn-sm bg-light border border-dark" href="/">Quay lại</a>
+            </div>
+            <div class="px-md-0 px-1" id="footer-font">
+              <b class="pl-md-4">Tổng tiền tất cả<span class="pl-md-4" th:text="${total}"></span></b>
+            </div>
+            <div th:if="${quantity_cart != 0}">
+              <a class="btn btn-sm bg-dark text-white px-lg-5 px-3" th:if="${user!=null}" href="/checkout">Thanh toán</a>
+              <a class="btn btn-sm bg-dark text-white px-lg-5 px-3" th:if="${user==null}" href="/login">Thanh toán</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer_section layout_padding">
+      <div class="container">
+        <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
+        <div class="input_bt">
+          <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
+          <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
+        </div>
+        <div class="footer_menu">
+          <ul>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Gift Ideas</a></li>
+            <li><a href="#">New Releases</a></li>
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Customer Service</a></li>
+          </ul>
+        </div>
+        <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
+      </div>
+    </div>
+
+  </body>
+</html>
